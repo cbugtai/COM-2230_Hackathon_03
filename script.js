@@ -19,6 +19,8 @@ choices.appendChild(choice2)
 choices.appendChild(choice3)
 choices.appendChild(choice4)
 
+question1()
+
 function question1(){
     question.textContent = "How do you handle conflict?"
     choice1.textContent = "I confront it head-on."
