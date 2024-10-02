@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Declares the document type and sets the language to English -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design for mobile devices -->
+    <title>Hogwarts Personality Test</title> <!-- Sets the title of the webpage that appears in the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links the external CSS stylesheet for styling -->
 </head>
 <body>
-    
+    <div class="container"> <!-- Main container for the content -->
+        <h1>Hogwarts Personality Test</h1> <!-- Main heading of the page -->
+        
+        <div id="quizContainer"> <!-- Container for the quiz questions and buttons -->
+            <h2 id = "question"></h2> <!-- Subheading for the choices section -->
+            <ol id = "choices"></ol> <!-- Ordered list for dynamically generated quiz questions -->
+            
+            <div id="buttons"> <!-- Div to group answer buttons together -->
+                <button id="button1">A</button> <!-- Button for answer option A -->
+                <button id="button2">B</button> <!-- Button for answer option B -->
+                <button id="button3">C</button> <!-- Button for answer option C -->
+                <button id="button4">D</button> <!-- Button for answer option D -->
+            </div> 
+        </div> 
+        
+        <div id="result"> <!-- Container for displaying results -->
+            <h3>Your Result:</h3> <!-- Subheading for the result section -->
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Links the external JavaScript file for interactivity -->
 </body>
 </html>
