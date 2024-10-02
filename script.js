@@ -38,19 +38,19 @@ function question2(){
     choice4.textContent = ""
 
     button1.addEventListener("click", () => {
-        question2();
+        question3();
         gryffindor + 1;
     })
     button2.addEventListener("click", () => {
-        question2();
+        question3();
         hufflepuff + 1;
     })
     button3.addEventListener("click", () => {
-        question2();
+        question3();
         ravenclaw + 1;
     })
     button4.addEventListener("click", () => {
-        question2();
+        question3();
         slytherin + 1;
     })
 }
