@@ -1,14 +1,16 @@
-var gryffindor = 0;
-var hufflepuff = 0;
-var ravenclaw = 0;
-var slytherin = 0;
+let gryffindor = 0;
+let hufflepuff = 0;
+let ravenclaw = 0;
+let slytherin = 0;
 
 let question = document.getElementById("question")
 let choices = document.getElementById("choices")
+let buttons = document.getElementById("buttons")
 let button1 = document.getElementById("button1")
 let button2 = document.getElementById("button2")
 let button3 = document.getElementById("button3")
 let button4 = document.getElementById("button4")
+let result = document.getElementById("result")
 let choice1 = document.createElement("li")
 let choice2 = document.createElement("li")
 let choice3 = document.createElement("li")
@@ -30,19 +32,19 @@ function question1(){
 
     button1.addEventListener("click", () => {
         question2();
-        gryffindor + 1;
+        gryffindor++;
     })
     button2.addEventListener("click", () => {
         question2();
-        hufflepuff + 1;
+        hufflepuff++;
     })
     button3.addEventListener("click", () => {
         question2();
-        ravenclaw + 1;
+        ravenclaw++;
     })
     button4.addEventListener("click", () => {
         question2();
-        slytherin + 1;
+        slytherin++
     })
 }
 
@@ -53,21 +55,22 @@ function question2(){
     choice3.textContent = "Knowledge and wisdom."
     choice4.textContent = "Ambition and success."
 
+    
     button1.addEventListener("click", () => {
         question3();
-        gryffindor + 1;
+        gryffindor++;
     })
     button2.addEventListener("click", () => {
         question3();
-        hufflepuff + 1;
+        hufflepuff++;
     })
     button3.addEventListener("click", () => {
         question3();
-        ravenclaw + 1;
+        ravenclaw++;
     })
     button4.addEventListener("click", () => {
         question3();
-        slytherin + 1;
+        slytherin++
     })
 }
 
@@ -78,46 +81,48 @@ function question3(){
     choice3.textContent = "The researcher who gathers information."
     choice4.textContent = "The strategist who plans the best approach"
 
+    
     button1.addEventListener("click", () => {
         question4();
-        gryffindor + 1;
+        gryffindor++;
     })
     button2.addEventListener("click", () => {
         question4();
-        hufflepuff + 1;
+        hufflepuff++;
     })
     button3.addEventListener("click", () => {
         question4();
-        ravenclaw + 1;
+        ravenclaw++;
     })
     button4.addEventListener("click", () => {
         question4();
-        slytherin + 1;
+        slytherin++
     })
 }
 
 function question4(){
-    question.textContent = ""
-    choice1.textContent = ""
-    choice2.textContent = ""
-    choice3.textContent = ""
-    choice4.textContent = ""
+    question.textContent = "When faced with a challenge, you..."
+    choice1.textContent = "Charge in without hesitation."
+    choice2.textContent = "Rally your friends for support."
+    choice3.textContent = "Think critically about all possible solutions."
+    choice4.textContent = "Assess how it can benefit you."
 
+    
     button1.addEventListener("click", () => {
         question5();
-        gryffindor + 1;
+        gryffindor++;
     })
     button2.addEventListener("click", () => {
         question5();
-        hufflepuff + 1;
+        hufflepuff++;
     })
     button3.addEventListener("click", () => {
         question5();
-        ravenclaw + 1;
+        ravenclaw++;
     })
     button4.addEventListener("click", () => {
         question5();
-        slytherin + 1;
+        slytherin++
     })
 }
 
@@ -128,21 +133,22 @@ function question5(){
     choice3.textContent = ""
     choice4.textContent = ""
 
+    
     button1.addEventListener("click", () => {
         question6();
-        gryffindor + 1;
+        gryffindor++;
     })
     button2.addEventListener("click", () => {
         question6();
-        hufflepuff + 1;
+        hufflepuff++;
     })
     button3.addEventListener("click", () => {
         question6();
-        ravenclaw + 1;
+        ravenclaw++;
     })
     button4.addEventListener("click", () => {
         question6();
-        slytherin + 1;
+        slytherin++
     })
 }
 
@@ -153,21 +159,22 @@ function question6(){
     choice3.textContent = ""
     choice4.textContent = ""
 
+    
     button1.addEventListener("click", () => {
         question7();
-        gryffindor + 1;
+        gryffindor++;
     })
     button2.addEventListener("click", () => {
         question7();
-        hufflepuff + 1;
+        hufflepuff++;
     })
     button3.addEventListener("click", () => {
         question7();
-        ravenclaw + 1;
+        ravenclaw++;
     })
     button4.addEventListener("click", () => {
         question7();
-        slytherin + 1;
+        slytherin++
     })
 }
 
@@ -178,21 +185,22 @@ function question7(){
     choice3.textContent = ""
     choice4.textContent = ""
 
+    
     button1.addEventListener("click", () => {
         question8();
-        gryffindor + 1;
+        gryffindor++;
     })
     button2.addEventListener("click", () => {
         question8();
-        hufflepuff + 1;
+        hufflepuff++;
     })
     button3.addEventListener("click", () => {
         question8();
-        ravenclaw + 1;
+        ravenclaw++;
     })
     button4.addEventListener("click", () => {
         question8();
-        slytherin + 1;
+        slytherin++
     })
 }
 
@@ -203,21 +211,22 @@ function question8(){
     choice3.textContent = ""
     choice4.textContent = ""
 
+    
     button1.addEventListener("click", () => {
         question9();
-        gryffindor + 1;
+        gryffindor++;
     })
     button2.addEventListener("click", () => {
         question9();
-        hufflepuff + 1;
+        hufflepuff++;
     })
     button3.addEventListener("click", () => {
         question9();
-        ravenclaw + 1;
+        ravenclaw++;
     })
     button4.addEventListener("click", () => {
         question9();
-        slytherin + 1;
+        slytherin++
     })
 }
 
@@ -228,21 +237,22 @@ function question9(){
     choice3.textContent = ""
     choice4.textContent = ""
 
+    
     button1.addEventListener("click", () => {
         question10();
-        gryffindor + 1;
+        gryffindor++;
     })
     button2.addEventListener("click", () => {
         question10();
-        hufflepuff + 1;
+        hufflepuff++;
     })
     button3.addEventListener("click", () => {
         question10();
-        ravenclaw + 1;
+        ravenclaw++;
     })
     button4.addEventListener("click", () => {
         question10();
-        slytherin + 1;
+        slytherin++
     })
 }
 
@@ -253,20 +263,28 @@ function question10(){
     choice3.textContent = ""
     choice4.textContent = ""
 
+    
     button1.addEventListener("click", () => {
-        question10();
-        gryffindor + 1;
+        gryffindor++;
+        results();
     })
     button2.addEventListener("click", () => {
-        question10();
-        hufflepuff + 1;
+        hufflepuff++;
+        results();
     })
     button3.addEventListener("click", () => {
-        question10();
-        ravenclaw + 1;
+        ravenclaw++;
+        results();
     })
     button4.addEventListener("click", () => {
-        question10();
-        slytherin + 1;
+        slytherin++
+        results();
     })
+}
+
+
+function results(){
+    const arr = [gryffindor,hufflepuff,ravenclaw,slytherin];
+    
+    result.textContent ="g="+ gryffindor + "h="+ hufflepuff + "r="+ ravenclaw + "s="+ slytherin
 }

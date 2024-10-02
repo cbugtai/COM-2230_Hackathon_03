@@ -47,6 +47,7 @@ h3 {
 
 /* Button Styles */
 button {
+    display: flex;
     margin: 5px;                 /* Margin between buttons */
     padding: 10px 15px;          /* Padding inside buttons */
     background-color: #6b3f99;   /* Purple background color */
@@ -63,9 +64,20 @@ button:hover {
 }
 
 /* Result Section Styles */
-#result {
-    margin-top: 20px;            /* Margin on top for result display */
-    padding: 15px;               /* Padding inside result box */
-    background-color: #e7e7e7;   /* Light gray background */
-    border-left: 4px solid #6b3f99; /* Left border with purple color */
+/*#result {
+/*    margin-top: 20px;            /* Margin on top for result display */
+/*    padding: 15px;               /* Padding inside result box */
+/*    background-color: #e7e7e7;   /* Light gray background */
+/*    border-left: 4px solid #6b3f99; /* Left border with purple color */
+/*}*/
+
+.Results{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
