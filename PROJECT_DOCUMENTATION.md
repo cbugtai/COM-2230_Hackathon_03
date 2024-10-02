@@ -6,9 +6,9 @@
 
 ## Team Members:
 
--   Name 1
--   Name 2
--   Name 3
+-   Name 1: Christian Bugtai
+-   Name 2: Akeen Williams
+-   Name 3: Daljeet Kaur
 
 ## Member Contributions:
 
@@ -20,6 +20,6 @@
 
 -   Was responsible for [specific tasks], focusing on [specific HTML elements].
 
-### Name 3:
+### Name 3: Daljeet Kaur
 
--   Handled [specific sections], covering [specific topics or features].
+-  Added the some content in the javascript file and the quize question.
