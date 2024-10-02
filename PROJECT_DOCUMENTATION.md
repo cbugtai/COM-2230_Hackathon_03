@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-[Provide a brief summary of the project, including the theme and objectives.]
+For thi Hackathon our group decided to do a Personality Quiz, Specifically, which Wizard house are you?
 
 ## Team Members:
 
@@ -12,14 +12,14 @@
 
 ## Member Contributions:
 
-### Name 1:
+### Akeem Williams:
 
--   Worked on [specific elements] of the webpage.
+-   Worked on css and index files, making sure the webpage looks nice and is user friendly.
 
-### Name 2:
+### Christian Bugtai:
 
--   Was responsible for [specific tasks], focusing on [specific HTML elements].
+-   Was responsible for coding the javascript, making sure the quiz fows smoothly.
 
-### Name 3: Daljeet Kaur
+### Daljeet Kaur:
 
--  Added the some content in the javascript file and the quize question.
+-  Added the some content in the javascript file and the quiz question.
