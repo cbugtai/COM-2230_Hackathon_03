@@ -4,16 +4,20 @@ var ravenclaw = 0;
 var slytherin = 0;
 
 let question = document.getElementById("question")
-let choices = document.getElementById("Choices")
+let choices = document.getElementById("choices")
 let button1 = document.getElementById("button1")
 let button2 = document.getElementById("button2")
 let button3 = document.getElementById("button3")
 let button4 = document.getElementById("button4")
-let choice1 = document.getElementById("choice1")
-let choice2 = document.getElementById("choice2")
-let choice3 = document.getElementById("choice3")
-let choice4 = document.getElementById("choice4")
+let choice1 = document.createElement("li")
+let choice2 = document.createElement("li")
+let choice3 = document.createElement("li")
+let choice4 = document.createElement("li")
 
+choices.appendChild(choice1)
+choices.appendChild(choice2)
+choices.appendChild(choice3)
+choices.appendChild(choice4)
 
 function question1(){
     question.textContent = "How do you handle conflict?"
