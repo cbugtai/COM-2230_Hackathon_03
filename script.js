@@ -114,3 +114,153 @@ function question4(){
         slytherin + 1;
     })
 }
+
+function question5(){
+    question.textContent = ""
+    choice1.textContent = ""
+    choice2.textContent = ""
+    choice3.textContent = ""
+    choice4.textContent = ""
+
+    button1.addEventListener("click", () => {
+        question6();
+        gryffindor + 1;
+    })
+    button2.addEventListener("click", () => {
+        question6();
+        hufflepuff + 1;
+    })
+    button3.addEventListener("click", () => {
+        question6();
+        ravenclaw + 1;
+    })
+    button4.addEventListener("click", () => {
+        question6();
+        slytherin + 1;
+    })
+}
+
+function question6(){
+    question.textContent = ""
+    choice1.textContent = ""
+    choice2.textContent = ""
+    choice3.textContent = ""
+    choice4.textContent = ""
+
+    button1.addEventListener("click", () => {
+        question7();
+        gryffindor + 1;
+    })
+    button2.addEventListener("click", () => {
+        question7();
+        hufflepuff + 1;
+    })
+    button3.addEventListener("click", () => {
+        question7();
+        ravenclaw + 1;
+    })
+    button4.addEventListener("click", () => {
+        question7();
+        slytherin + 1;
+    })
+}
+
+function question7(){
+    question.textContent = ""
+    choice1.textContent = ""
+    choice2.textContent = ""
+    choice3.textContent = ""
+    choice4.textContent = ""
+
+    button1.addEventListener("click", () => {
+        question8();
+        gryffindor + 1;
+    })
+    button2.addEventListener("click", () => {
+        question8();
+        hufflepuff + 1;
+    })
+    button3.addEventListener("click", () => {
+        question8();
+        ravenclaw + 1;
+    })
+    button4.addEventListener("click", () => {
+        question8();
+        slytherin + 1;
+    })
+}
+
+function question8(){
+    question.textContent = ""
+    choice1.textContent = ""
+    choice2.textContent = ""
+    choice3.textContent = ""
+    choice4.textContent = ""
+
+    button1.addEventListener("click", () => {
+        question9();
+        gryffindor + 1;
+    })
+    button2.addEventListener("click", () => {
+        question9();
+        hufflepuff + 1;
+    })
+    button3.addEventListener("click", () => {
+        question9();
+        ravenclaw + 1;
+    })
+    button4.addEventListener("click", () => {
+        question9();
+        slytherin + 1;
+    })
+}
+
+function question9(){
+    question.textContent = ""
+    choice1.textContent = ""
+    choice2.textContent = ""
+    choice3.textContent = ""
+    choice4.textContent = ""
+
+    button1.addEventListener("click", () => {
+        question10();
+        gryffindor + 1;
+    })
+    button2.addEventListener("click", () => {
+        question10();
+        hufflepuff + 1;
+    })
+    button3.addEventListener("click", () => {
+        question10();
+        ravenclaw + 1;
+    })
+    button4.addEventListener("click", () => {
+        question10();
+        slytherin + 1;
+    })
+}
+
+function question10(){
+    question.textContent = ""
+    choice1.textContent = ""
+    choice2.textContent = ""
+    choice3.textContent = ""
+    choice4.textContent = ""
+
+    button1.addEventListener("click", () => {
+        question10();
+        gryffindor + 1;
+    })
+    button2.addEventListener("click", () => {
+        question10();
+        hufflepuff + 1;
+    })
+    button3.addEventListener("click", () => {
+        question10();
+        ravenclaw + 1;
+    })
+    button4.addEventListener("click", () => {
+        question10();
+        slytherin + 1;
+    })
+}
