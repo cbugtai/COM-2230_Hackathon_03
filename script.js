@@ -97,11 +97,11 @@ function question3(){
 }
 
 function question4(){
-    question.textContent = ""
-    choice1.textContent = ""
-    choice2.textContent = ""
-    choice3.textContent = ""
-    choice4.textContent = ""
+    question.textContent = "What is your favorite hobby?"
+    choice1.textContent = "Exploring new places."
+    choice2.textContent = "Helping others."
+    choice3.textContent = "Reading or learning new things."
+    choice4.textContent = "Setting and achieving goals."
 
     button1.addEventListener("click", () => {
         question5();
@@ -122,11 +122,11 @@ function question4(){
 }
 
 function question5(){
-    question.textContent = ""
-    choice1.textContent = ""
-    choice2.textContent = ""
-    choice3.textContent = ""
-    choice4.textContent = ""
+    question.textContent = "What quality do you most admire in others?"
+    choice1.textContent = "Courage."
+    choice2.textContent = "Loyalty."
+    choice3.textContent = "Intelligence."
+    choice4.textContent = "Ambition."
 
     button1.addEventListener("click", () => {
         question6();
@@ -147,11 +147,11 @@ function question5(){
 }
 
 function question6(){
-    question.textContent = ""
-    choice1.textContent = ""
-    choice2.textContent = ""
-    choice3.textContent = ""
-    choice4.textContent = ""
+    question.textContent = "Which animal do you feel most connected to?"
+    choice1.textContent = "Lion."
+    choice2.textContent = "Badger."
+    choice3.textContent = "Egale."
+    choice4.textContent = "Snake."
 
     button1.addEventListener("click", () => {
         question7();
@@ -172,11 +172,11 @@ function question6(){
 }
 
 function question7(){
-    question.textContent = ""
-    choice1.textContent = ""
-    choice2.textContent = ""
-    choice3.textContent = ""
-    choice4.textContent = ""
+    question.textContent = "Which environment do you thrive in?"
+    choice1.textContent = "A fast-paced, challenging one."
+    choice2.textContent = "A collaborative, supportive one."
+    choice3.textContent = "A quiet, thoughtful one."
+    choice4.textContent = "A competitive, high-achieving one."
 
     button1.addEventListener("click", () => {
         question8();
@@ -197,11 +197,11 @@ function question7(){
 }
 
 function question8(){
-    question.textContent = ""
-    choice1.textContent = ""
-    choice2.textContent = ""
-    choice3.textContent = ""
-    choice4.textContent = ""
+    question.textContent = "Which color do you prefer?"
+    choice1.textContent = "Red."
+    choice2.textContent = "Yellow."
+    choice3.textContent = "Blue."
+    choice4.textContent = "Green."
 
     button1.addEventListener("click", () => {
         question9();
@@ -222,11 +222,11 @@ function question8(){
 }
 
 function question9(){
-    question.textContent = ""
-    choice1.textContent = ""
-    choice2.textContent = ""
-    choice3.textContent = ""
-    choice4.textContent = ""
+    question.textContent = "Which subject interests you the most?"
+    choice1.textContent = "Defense Against the Dark Arts."
+    choice2.textContent = "Herbology."
+    choice3.textContent = "Astronomy."
+    choice4.textContent = "Potions."
 
     button1.addEventListener("click", () => {
         question10();
@@ -247,11 +247,11 @@ function question9(){
 }
 
 function question10(){
-    question.textContent = ""
-    choice1.textContent = ""
-    choice2.textContent = ""
-    choice3.textContent = ""
-    choice4.textContent = ""
+    question.textContent = "How do you handle failure?"
+    choice1.textContent = "I get back up and try again."
+    choice2.textContent = "I seek support from friends."
+    choice3.textContent = "I analyze what went wrong."
+    choice4.textContent = "I use it as motivation to succeed next time."
 
     button1.addEventListener("click", () => {
         question10();
