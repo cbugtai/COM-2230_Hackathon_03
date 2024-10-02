@@ -1,0 +1,71 @@
+/* Basic Reset */
+* {
+    margin: 0;            /* Reset default margins */
+    padding: 0;           /* Reset default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Set the font for the page */
+    background-color: #f0f8ff;      /* Light background color */
+    color: #333;                    /* Dark text color for readability */
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;            /* Maximum width of the container */
+    margin: 20px auto;           /* Center the container with top/bottom margin */
+    padding: 20px;               /* Padding inside the container */
+    background-color: #ffffff;   /* White background for the container */
+    border-radius: 8px;          /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;          /* Center the main title */
+    color: #6b3f99;              /* Purple color for the title */
+}
+
+h2 {
+    margin: 20px 0 10px;        /* Margin around the subheading */
+    color: #333;                 /* Dark text color for subheadings */
+}
+
+h3 {
+    margin-top: 20px;            /* Margin on top for result heading */
+    color: #6b3f99;              /* Same purple color for consistency */
+}
+
+/* Ordered List Styles */
+#questionList {
+    list-style-type: decimal;    /* Default decimal style for ordered list */
+    margin: 20px 0;              /* Margin around the list */
+    padding-left: 20px;          /* Padding to indent the list */
+}
+
+/* Button Styles */
+button {
+    margin: 5px;                 /* Margin between buttons */
+    padding: 10px 15px;          /* Padding inside buttons */
+    background-color: #6b3f99;   /* Purple background color */
+    color: white;                /* White text color */
+    border: none;                /* Remove default border */
+    border-radius: 5px;         /* Rounded corners for buttons */
+    cursor: pointer;             /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #573272;   /* Darker purple on hover */
+}
+
+/* Result Section Styles */
+#result {
+    margin-top: 20px;            /* Margin on top for result display */
+    padding: 15px;               /* Padding inside result box */
+    background-color: #e7e7e7;   /* Light gray background */
+    border-left: 4px solid #6b3f99; /* Left border with purple color */
+}
